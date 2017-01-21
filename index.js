@@ -15,4 +15,4 @@ app.get ('/', (req, res) => {
   res.sendFile (require ('path').join (__dirname, 'assets/static/index.html'));
 })
 
-app.listen (8080, "172.31.98.41");
+app.listen (8080);
